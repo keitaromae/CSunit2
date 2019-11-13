@@ -2,8 +2,8 @@
 
 contents
 -----
-  1. [reflection](#reflection)
-  1. [how to count from 0-15 in binary?](#how to count from 0-15 in binary?)
+1. [reflection](#reflection)
+1. [count](#count)
   
   
   
@@ -11,5 +11,5 @@ reflection
 -----
 
 
-how to count from 0-15 in binary?
+count
 -----
