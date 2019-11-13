@@ -2,14 +2,14 @@
 
 contents
 -----
-1. [reflection](#reflection)
-1. [count](#count)
+1. [Reflection](#Reflection)
+1. [Development](#Development)
   
   
   
-reflection
+Reflection
 -----
 
 
-count
+Development
 -----
