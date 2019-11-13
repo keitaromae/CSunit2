@@ -2,18 +2,12 @@
 
 contents
 -----
-1. [Reflection](#Reflection)
 1. [Development](#Development)
-  
-  
-  
-Reflection
------
 
 
 Development
 -----
-**how to count in binary?***
+**how to count in binary?**
  - How to count a number from 0-15 by using arduino
  - Showing numbers in binary form
 ```
