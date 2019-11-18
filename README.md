@@ -1,6 +1,6 @@
 # CSunit2
 
-contents
+Table of contents
 -----
 1. [Development](#Development)
 
