@@ -4,7 +4,7 @@ Table of contents
 -----
 1. [Development](#Development)
 1. [Usability](#Usability)
-1. [Earth to Mars project](#Earth to Mars project)
+1. [Earth_to_Mars_project](#Earth to Mars project)
 
 Development
 -----
