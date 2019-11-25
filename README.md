@@ -4,7 +4,7 @@ Table of contents
 -----
 1. [Development](#Development)
 1. [Usability](#Usability)
-1. [Earth - Moon - Mars project](#Earth - Moon - Mars project)
+1. [Earth to Mars project](#Earth to Mars project)
 
 Development
 -----
@@ -77,5 +77,5 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 [1] https://en.wikipedia.org/wiki/Usability
 [2] http://www.wqusability.com/articles/more-than-ease-of-use.html
 
-Earth - Moon - Mars project
+Earth to Mars project
 -----
