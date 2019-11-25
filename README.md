@@ -80,6 +80,7 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 Project
 -----
 **About**
+
 Build a communication method from Earth to Mars. 
  - Earth to Moon (Alphabet to Morse)
  - Moon to Mars (Morse to Binary)
