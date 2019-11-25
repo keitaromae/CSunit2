@@ -91,3 +91,14 @@ They have different outputs between each stars, so the program between them woul
 **Tasks:**
  - Enter English text show in the serial monitor use the LED screen.
 
+Moon to Mars (Morse to Binary)
+```
+Input = 2 buttons
+but A, Selects the alphabet
+but B, All the options (Ent, space, Del and Send)
+
+
+Output = Alphabet in Binary
+Ou
+Out
+
