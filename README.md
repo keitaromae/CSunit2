@@ -83,6 +83,7 @@ Project
 Build a communication method from Earth to Mars. 
  - Earth to Moon (Alphabet to Morse)
  - Moon to Mars (Morse to Binary)
+
 They have different outputs between each stars, so the program between them would be very crucial.
 
 **Tasks:**
