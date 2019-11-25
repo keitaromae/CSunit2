@@ -79,5 +79,12 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 
 Project
 -----
-**Tasks**
+**About**
+Build a communication method from Earth to Mars. 
+Earth - Moon (Alphabet to Morse)
+Moon - Mars (Morse to Binary)
+They have different outputs between each stars, so the program between them would be very crucial.
+
+**Tasks:**
+ - Enter English text show in the serial monitor use the LED screen.
 
