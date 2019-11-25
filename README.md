@@ -75,6 +75,7 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 **Resources**
 
 [1] https://en.wikipedia.org/wiki/Usability
+
 [2] http://www.wqusability.com/articles/more-than-ease-of-use.html
 
 Project
