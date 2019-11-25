@@ -3,7 +3,7 @@
 Table of contents
 -----
 1. [Development](#Development)
-
+1. [Usability](#Usability)
 
 Development
 -----
@@ -61,3 +61,17 @@ void loop()
   delay(200);
 }
 ```
+
+Usability
+-----
+**What is USABILITY??**
+
+ - In software engineering, usability is the degree to which a software can be used by specified consumers to achieve quantified objectives with effectiveness, efficiency, and satisfaction in a quantified context of use.
+Any discussion of usability must include the idea of ergonomics and accessibility [1].
+
+ - "The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use”[2]
+ 
+**Resources**
+
+[1] https://en.wikipedia.org/wiki/Usability
+[2] http://www.wqusability.com/articles/more-than-ease-of-use.html
