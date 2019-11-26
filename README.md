@@ -120,6 +120,6 @@ but B, All the options (Ent, space, Del and Send)
 Output = Alphabet in Binary
 ```
 
-**E
+**Evaluation**
 
 
