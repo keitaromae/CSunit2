@@ -73,6 +73,9 @@ void loop()
 }
 ```
 
+**What is the volatile data type in arduino?**
+
+
 Usability
 -----
 **What is USABILITY??**
@@ -90,6 +93,12 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 
 Project
 -----
+**Plan (defining the problem)**
+
+**Solution proposed**
+
+**Success criteria**
+
 **About**
 
 Build a communication method from Earth to Mars. 
@@ -109,7 +118,8 @@ but B, All the options (Ent, space, Del and Send)
 
 
 Output = Alphabet in Binary
-Input = 2 buttons (butA, butB)
 ```
+
+**E
 
 
