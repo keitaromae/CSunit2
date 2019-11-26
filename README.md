@@ -99,6 +99,7 @@ but B, All the options (Ent, space, Del and Send)
 
 
 Output = Alphabet in Binary
-Input
+Input = 2 buttons (butA, butB)
+```
 
 
