@@ -13,7 +13,6 @@ Feedback Nov 26 (You can deleted this section later. It will remain in the histo
 Table of contents
 -----
 1. [Development](#Development)
-1. [Usability](#Usability)
 1. [Project](#Project)
 
 Development
@@ -75,9 +74,6 @@ void loop()
 
 **What is the volatile data type in arduino?**
 
-
-Usability
------
 **What is USABILITY??**
 
  - In software engineering, usability is the degree to which a software can be used by specified consumers to achieve quantified objectives with effectiveness, efficiency, and satisfaction in a quantified context of use.
