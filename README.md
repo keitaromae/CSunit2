@@ -81,11 +81,6 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 
  - "The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use”[2]
  
-**Resources**
-
-[1] https://en.wikipedia.org/wiki/Usability
-
-[2] http://www.wqusability.com/articles/more-than-ease-of-use.html
 
 Project
 -----
@@ -119,3 +114,10 @@ Output = Alphabet in Binary
 **Evaluation**
 
 
+**References**
+
+[1] Wikipedia "Usability." Wikipedia, 13 November 2019
+https://en.wikipedia.org/wiki/Usability
+
+[2] Whitney Quesenbery "What is usability." WQusability, 2001
+http://www.wqusability.com/articles/more-than-ease-of-use.html
