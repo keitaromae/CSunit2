@@ -14,6 +14,7 @@ Table of contents
 -----
 1. [Development](#Development)
 1. [Project](#Project)
+1. [References](#References)
 
 Development
 -----
@@ -114,7 +115,8 @@ Output = Alphabet in Binary
 **Evaluation**
 
 
-**References**
+References
+-----
 
 [1] Wikipedia "Usability." Wikipedia, 13 November 2019
 https://en.wikipedia.org/wiki/Usability
