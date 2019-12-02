@@ -164,6 +164,9 @@ void selected(){
 ![arduino](IMG_0313.jpg)
 **First Prototype** (development work in progress)
 
+![arduino2](IMG_0313.jpg)
+**code on my PC** (development work in progress)
+
 
 Project
 -----
