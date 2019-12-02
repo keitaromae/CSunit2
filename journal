@@ -24,3 +24,12 @@
   worked on my own code. To loop alphabet, num and send, del keys. I was just able to make some prototypes but not completed
   yet. From now on, I need to develop my code to read input and also to figure it out how to make it more efficient. 
   Since this program takes a lot to input alphabets.
+
+12/2 19
+  Created new circuits with arduino. This time we used, LCD screens to actually show the progress. It is bit confusing to do
+  all the cable works but our team finished off creating one circuit. After that, we tried out by connecting to my PC and 
+  run code with it but however, it didn't work. By unplugging our own circuit and connecting original sample, it worked fine.
+  Which means the problem is the circuit it self not the code. Rest of the class was just us trying to figure it out what we
+  didn't do it correctly.
+  
+  
