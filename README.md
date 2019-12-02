@@ -82,7 +82,7 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
 
  - "The extent to which a product can be used by specified users to achieve specified goals with effectiveness, efficiency, and satisfaction in a specified context of use”[2]
  
-***Alphabet to binary program***
+***Alphabet to binary program*
 
 This is the program that convert alphabet, numbers into binary and send or delete by using 2 button inputs.
 ```
