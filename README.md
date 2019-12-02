@@ -179,13 +179,13 @@ void selected(){
 
 Project
 -----
-**Plan (defining the problem)**
+**//Plan (defining the problem)**
 
-**Solution proposed**
+**//Solution proposed**
 
-**Success criteria**
+**//Success criteria**
 
-**About**
+**//About**
 
 Build a communication method from Earth to Mars. 
  - Earth to Moon (Alphabet to Morse)
@@ -193,7 +193,7 @@ Build a communication method from Earth to Mars.
 
 They have different outputs between each stars, so the program between them would be very crucial.
 
-**Tasks:**
+**//Tasks:**
  - Enter English text show in the serial monitor use the LED screen.
 
 Moon to Mars (Morse to Binary)
@@ -206,7 +206,7 @@ but B, All the options (Ent, space, Del and Send)
 Output = Alphabet in Binary
 ```
 
-**Evaluation**
+**//Evaluation**
 
 
 References
