@@ -161,7 +161,7 @@ void selected(){
   //
 }
 ```
-![arduino](IMG_0312.HEIC)
+![arduino](IMG_0313.jpg)
 **First Prototype** (development work in progress)
 
 Project
