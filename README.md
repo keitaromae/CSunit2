@@ -163,6 +163,7 @@ void selected(){
 ```
 ![arduino](IMG_0312.HEIC)
 **First Prototype** (development work in progress)
+
 Project
 -----
 **Plan (defining the problem)**
