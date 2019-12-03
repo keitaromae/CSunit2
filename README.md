@@ -144,7 +144,7 @@ Any discussion of usability must include the idea of ergonomics and accessibilit
  
 ***Alphabet to binary program***
 
-This is the program that convert alphabet, numbers into binary and send or delete by using 2 button inputs.
+ - This is the program that convert alphabet, numbers into binary and send or delete by using 2 button inputs.
 ```
 // include the library code:
 #include <LiquidCrystal.h>
