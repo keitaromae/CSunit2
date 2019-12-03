@@ -176,6 +176,8 @@ void selected(){
 ![arduino2](IMG_0313.jpg)
 **code on my PC** (development work in progress)
 
+***since this photo is not shown in markdown, original files are in "Arduino" file in my repository**
+
 
 Project
 -----
