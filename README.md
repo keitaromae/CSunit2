@@ -12,9 +12,60 @@ Feedback Nov 26 (You can deleted this section later. It will remain in the histo
 
 Table of contents
 -----
+1. [Planning](#Planning)
 1. [Development](#Development)
-1. [Project](#Project)
+1. [Evaluation](#Evaluation)
 1. [References](#References)
+
+
+Planning
+-----
+### Defining the problem
+
+We are creating the communication tool that goes through Moon and Mars.
+Very first step sending messages from our planet Earth to the Moon, we suppose that we are not allowed to send messages to Mars directly due to its technical difficulties. Going through Moon is the absolute condition.
+Also each planet or star has its own ways of transpassing data. Between Earth and Moon we use morse code, from Moon to Mars,
+we use binary code to send data.
+By creating useful communication tool, we have to create several programs that convert the inputted data into their readable format. For example, Alphabet to morse code.
+
+### Solution proposed
+
+Using Arduino Uno, 2 button input program to create communication tools that convert several inputs to different format.
+Also we are creating this program for each and every people. So the user don't have to know what binary is and how to write in morse. All of the converting process will be done through our program and user only have to input what they want to send.
+
+### Success criteria
+
+These are measurable outcomes
+
+1. Simple usage.
+1. User can send their messages without having any extra knowledge.
+1. User can write their messages only by using 2 button inputs.
+1. Program can convert original data into whatever the format that should be outputted.
+
+
+### About
+
+Build a communication method from Earth to Mars. 
+ - Earth to Moon (Alphabet to Morse)
+ - Moon to Mars (Morse to Binary)
+
+They have different outputs between each stars, so the program between them would be very crucial.
+
+### Tasks:
+
+ - Enter English text show in the serial monitor use the LED screen.
+
+Moon to Mars (Morse to Binary)
+```
+Input = 2 buttons
+but A, Selects the alphabet
+but B, All the options (Ent, space, Del and Send)
+
+
+Output = Alphabet in Binary
+or
+Output = Morse to Binary (work in progress)
+```
 
 Development
 -----
@@ -179,59 +230,8 @@ void selected(){
 ***since this photo is not shown in markdown, original files are in "Arduino" file in my repository**
 
 
-Project
+Evaluation
 -----
-**//Planing (defining the problem)**
-
-We are creating the communication tool that goes through Moon and Mars.
-Very first step sending messages from our planet Earth to the Moon, we suppose that we are not allowed to send messages to Mars directly due to its technical difficulties. Going through Moon is the absolute condition.
-Also each planet or star has its own ways of transpassing data. Between Earth and Moon we use morse code, from Moon to Mars,
-we use binary code to send data.
-By creating useful communication tool, we have to create several programs that convert the inputted data into their readable format. For example, Alphabet to morse code.
-
-**//Solution proposed**
-
-Using Arduino Uno, 2 button input program to create communication tools that convert several inputs to different format.
-Also we are creating this program for each and every people. So the user don't have to know what binary is and how to write in morse. All of the converting process will be done through our program and user only have to input what they want to send.
-
-**//Success criteria**
-
-These are measurable outcomes
-
-1. Simple usage.
-1. User can send their messages without having any extra knowledge.
-1. User can write their messages only by using 2 button inputs.
-1. Program can convert original data into whatever the format that should be outputted.
-1. 
-1. Trips can be recorded ad stored for an existing car.
-1. A basic daravase system is implemented.
-1. A basic backup functionality is available.
-
-
-**//About**
-
-Build a communication method from Earth to Mars. 
- - Earth to Moon (Alphabet to Morse)
- - Moon to Mars (Morse to Binary)
-
-They have different outputs between each stars, so the program between them would be very crucial.
-
-**//Tasks:**
- - Enter English text show in the serial monitor use the LED screen.
-
-Moon to Mars (Morse to Binary)
-```
-Input = 2 buttons
-but A, Selects the alphabet
-but B, All the options (Ent, space, Del and Send)
-
-
-Output = Alphabet in Binary
-or
-Output = Morse to Binary (work in progress)
-```
-
-**//Evaluation**
 
 At this point entire program is not done yet. We need to add up some programs to transmit data from Earth to Moon. Since I was responsible for Moon to Mars section, we have to add each ideas to create one system.
 Overall in Moon to Mars section Alphabet to Binary program worked fine without having any errors.
@@ -242,10 +242,30 @@ In my team we separated parts into several section. People who build the circuit
 I did the coding part and other did the circuit section. After working on our own parts, we gather up and tested the progress.
 First of all we connected our made circuit into my PC and run code throughout Arduino.
 For our first try, it didn't work. Alphabets and numbers should appear on our LCD but it didn't show anything.
+```
+We had to figure it out the cause of an error. Whether it's code or the circuit or even both of them.
+```
+Test 2:
+Running "Alphabet to Binary" program(exactly same code that we used in test1) by using Arduino.
+This time we used the original sample circuit that is made by Dr Ruben to see my code is correct or not.
+As a matter of fact, it start showing alphabets, numbers and send, del keys. Code did work, so the problem was the circuit it self.
+We double checked our circuit and we supposed that there is something wrong with few of the cable ports. Since we didn't have enough time to work on it, we're still not able to create our own circuit yet.
+```
 
-```
-k
-```
+**Checking success criteria**
+
+1. Simple usage.
+It is quite simple and easy for user to use but it takes a lot of time to send full sentences.
+
+1. User can send their messages without having any extra knowledge.
+User just need their necessary Alphabet knowledge. Other work will be 100% done by program.
+
+1. User can write their messages only by using 2 button inputs.
+Yes, butA for the scrolling and butB to select.
+
+1. Program can convert original data into whatever the format that should be outputted.
+We have created only "Alphabet to Binary" code, this section will be updated as soon as we created new program.
+
 References
 -----
 
