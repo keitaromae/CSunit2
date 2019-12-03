@@ -252,7 +252,7 @@ As a matter of fact, it start showing alphabets, numbers and send, del keys. Cod
 We double checked our circuit and we supposed that there is something wrong with few of the cable ports. Since we didn't have enough time to work on it, we're still not able to create our own circuit yet.
 ```
 
-**Checking success criteria**
+**Checking success criteria (Project is not fully done yet)**
 
 1. **Simple usage.**
 It is quite simple and easy for user to use but it takes a lot of time to send full sentences.
@@ -265,6 +265,10 @@ Yes, butA for the scrolling and butB to select.
 
 1. **Program can convert original data into whatever the format that should be outputted.**
 We have created only "Alphabet to Binary" code, this section will be updated as soon as we created new program.
+
+**Summary**
+
+*Project is not fully done yet*
 
 References
 -----
