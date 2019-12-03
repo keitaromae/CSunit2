@@ -254,16 +254,16 @@ We double checked our circuit and we supposed that there is something wrong with
 
 **Checking success criteria**
 
-1. Simple usage.
+1. **Simple usage.**
 It is quite simple and easy for user to use but it takes a lot of time to send full sentences.
 
-1. User can send their messages without having any extra knowledge.
+1. **User can send their messages without having any extra knowledge.**
 User just need their necessary Alphabet knowledge. Other work will be 100% done by program.
 
-1. User can write their messages only by using 2 button inputs.
+1. **User can write their messages only by using 2 button inputs.**
 Yes, butA for the scrolling and butB to select.
 
-1. Program can convert original data into whatever the format that should be outputted.
+1. **Program can convert original data into whatever the format that should be outputted.**
 We have created only "Alphabet to Binary" code, this section will be updated as soon as we created new program.
 
 References
