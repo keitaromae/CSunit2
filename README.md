@@ -231,7 +231,7 @@ void selected(){
 
 ***Alphabet to binary ver2***
 
-Updating our code to improve usability. By testing out few programs, we recognized key "SENT" and "DEL" should at first.
+ - Updating our code to improve usability. By testing out few programs, we recognized key "SENT" and "DEL" should at first.
 So we moved those 2 keys infront of the row and also added "SPACE" key by simply binding " " to its key.
 ```
 // include the library code:
