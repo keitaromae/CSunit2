@@ -36,3 +36,8 @@
   ・Complete circuit
   ・Re-constructing codes
   ・Test run
+
+12/11 19
+  Executed our final test process. We simply just check our circuit's wire placement. By using Arduino app, gathered
+  informations of which structure is not working properly. By stepping several process, we were able to connect LCD screeen to
+  arduino. Also added "SPACE" key to increase varieties of inputs.
