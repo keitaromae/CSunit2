@@ -230,6 +230,7 @@ void selected(){
 ***since this photo is not shown in markdown, original files are in "Arduino" file in my repository**
 
 ***Alphabet to binary ver2***
+
 Updating our code to improve usability. By testing out few programs, we recognized key "SENT" and "DEL" should at first.
 So we moved those 2 keys infront of the row and also added "SPACE" key by simply binding " " to its key.
 ```
@@ -336,6 +337,12 @@ Running "Alphabet to Binary" program(exactly same code that we used in test1) by
 This time we used the original sample circuit that is made by Dr Ruben to see my code is correct or not.
 As a matter of fact, it start showing alphabets, numbers and send, del keys. Code did work, so the problem was the circuit it self.
 We double checked our circuit and we supposed that there is something wrong with few of the cable ports. Since we didn't have enough time to work on it, we're still not able to create our own circuit yet.
+```
+Another class
+```
+Test 3:
+Figuring out circuit's hole.
+We reorganized and reprogrammed both our circuit and code to check where the issues are.
 ```
 
 **Checking success criteria (Project is not fully done yet)**
