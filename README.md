@@ -342,7 +342,7 @@ Another class
 ```
 Test 3:
 Figuring out circuit's hole.
-We reorganized and reprogrammed both our circuit and code to check where the issues are.
+We reorganized and reprogrammed both our circuit and code to check where the issues are. 
 ```
 
 **Checking success criteria (Project is not fully done yet)**
