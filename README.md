@@ -316,6 +316,122 @@ void selected(){
   //
 }
 ```
+***Alphabet to binary ver3***
+```
+// include the library code:
+#include <LiquidCrystal.h>
+int index = 0; 
+// add all the letters and digits to the keyboard
+String menu0[]={"SENT", "DEL", "SPACE", "NUM", "A-M", "N-Z" };
+String menu1[]={"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"};
+String menu2[]={"N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+String menu3[]={"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "!", "?", "&"};
+
+int menuSelected = 0; //by default is the menu1
+int numOptions = 6; //size of keyboard
+
+
+String text = "";
+
+
+// initialize the library with the numbers of the interface pins
+LiquidCrystal lcd(12, 11, 5, 4, 9, 8);
+
+void setup() {
+  // set up the LCD's number of columns and rows:
+  lcd.begin(16, 2);
+  // Print a message to the LCD.
+  attachInterrupt(0, changeLetter, RISING);//button A in port 2
+  attachInterrupt(1, selected, RISING);//button B in port 3
+}
+
+void loop() {
+  // set the cursor to column 0, line 1
+  // (note: line 1 is the second row, since counting begins with 0):
+  lcd.clear();
+  lcd.setCursor(0, 0);
+  if(menuSelected==0)
+  {
+    lcd.print(menu1[index]);
+  }
+  else if (menuSelected==1)
+  {
+    lcd.print(menu2[index]);
+  }
+  else if (menuSelected==2)
+  {
+    lcd.print(menu3[index]);
+  }
+  
+  
+  lcd.setCursor(0, 1);
+  lcd.print(text);
+  delay(100);
+}
+
+//This function changes the letter in the keyboard
+void selected(){
+  static unsigned long last_interrupt_time = 0;
+  unsigned long interrupt_time = millis();
+  if (interrupt_time - last_interrupt_time > 200)
+  {
+  
+    last_interrupt_time = interrupt_time;// If interrupts come faster than 200ms, assum
+    
+ }
+}
+
+//this function adds the letter to the text or send the msg
+void changeLetter(){
+  long last_interrupt_time = 0;
+  long interrupt_time = millis();
+  if (interrupt_time - last_interrupt_time > 200)
+  {
+    last_interrupt_time = interrupt_time;// If interrupts come faster than 200ms, assume
+    
+   //count number of botton presses
+   index++;
+   if(menuSelected == 0 && index>6)
+   {
+      //this makes sures that the index does not go outside the menu1
+      index=0;
+    }else
+    {//any other menu has 13 options
+        if(index>13)
+        {
+          index=0; 
+        }  
+    String key = menu0[index];
+    if (key == "DEL")
+    {
+      int len = text.length();
+      text.remove(len-1);
+    }
+    else if(key == "SPACE")
+    {
+      text += " ";
+    }
+    else if(key == "SENT") 
+    {
+      text="";
+    }
+    else if(key == "A-M")
+    {
+      menu1[]={"A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M"};
+    }
+    else if(key == "N-Z")
+    {
+      menu2[]={"N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"};
+    }
+    else if(key == "NUM")
+    {
+      menu3[]={"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "!", "?", "&"};
+    }
+    index = 0;
+    }
+  }
+}
+```
 
 Evaluation
 -----
