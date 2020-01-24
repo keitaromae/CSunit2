@@ -1032,6 +1032,49 @@ void selected(){
 Manual
 -----
 
+**English to binary**
+```
+This is the manual of how to use our “English to binary” arduino.
+
+This program has 2 input buttons with color blue and red.
+With 2 output light that shows binary code.
+
+By pressing the blue button, you can scroll through the options. 
+Options are “send” “del” “space” “a” “b”.....”z”
+When you accidentally pass through the option you want to select, you have to start the loop again to scroll.
+
+By pressing the red button you can select the options. You cursor is on “send” option and press red button, the program will send the text you inputted.
+
+After you send the text you inputted, the output light will blink. This will show the text you typed in binary code.
+
+One light will blink on a regular basis, this light is used as counter. This will blink to show the knot of the code.
+
+Other light will blink to show the binary code.
+For example, “A” is “000001” in binary. This case the light will pause first 5 blink of the counter clock and blink once for the last count.
+```
+
+**Binary to English**
+```
+This is the manual of how to use our “binary to English” arduino.
+
+This program has 2 blue and red input buttons. 
+With output LCD screen attached to bread board.
+
+Blue input button is used to scroll down the options. By pressing the button you can go forward to scroll through the options in the program “send” “del” “0” “1”. 
+
+Red button is used to select the options.
+By selecting “000001” and press “send” you can express the binary code in to English.
+
+When you miss type your code during the selection, first you have to send the code and delete it to restart typing it.
+
+Ex. You wanted to type “000001” but you missed “001”.  In this case, you have to first “send” the miss typed code. And then press “del” to delete the text.
+
+After sending the binary code, English ver should be shown on to LCD screen. 
+So basically after user inputted their code, output should be shown automatically.
+
+Ex. “000001” “send” -> “A”
+```
+
 Evaluation
 -----
 
