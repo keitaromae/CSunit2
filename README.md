@@ -14,6 +14,7 @@ Table of contents
 -----
 1. [Planning](#Planning)
 1. [Development](#Development)
+1. [Manual](#Manual)
 1. [Evaluation](#Evaluation)
 1. [References](#References)
 
@@ -1028,6 +1029,9 @@ void selected(){
   
 }
 ```
+Manual
+-----
+
 Evaluation
 -----
 
