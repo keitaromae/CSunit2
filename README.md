@@ -65,7 +65,7 @@ but B, All the options (Ent, space, Del and Send)
 
 Output = Alphabet in Binary
 or
-Output = Morse to Binary (work in progress)
+Output = Binary to Alphabet (work in progress)
 ```
 
 Development
