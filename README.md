@@ -1115,11 +1115,12 @@ User just need their necessary Alphabet knowledge. Other work will be 100% done 
 Yes, butA for the scrolling and butB to select.
 
 1. **Program can convert original data into whatever the format that should be outputted.**
-We have created only "Alphabet to Binary" code, this section will be updated as soon as we created new program.
+We have created only "Alphabet to Binary" code, this section will be updated as soon as we created new program.(2019 Dec)
+Created both "Alphabet to Binary" and "Binary to Alphabet". Users input will be automatically outputted to its format by the program itself.
 
 **Summary**
 
-*Project is not fully done yet*
+We created both "Alphabet to binary" and "binary to alphabet" program. I tried to joint this 2 program into one connected program, although after combining 2 programs, due to overlapping of for loops, our program got really slow. We decided to seperate it for more seamless usability. Other than that, we think that we pretty much achieved our success criteria.
 
 References
 -----
